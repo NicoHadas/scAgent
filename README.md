@@ -1,6 +1,4 @@
 # **scAgent**
-
-## Overview
 Agentic AI framework that probes our local single-cell data. Enables non-computational experts to seamlessly investigate transcriptional signatures. 
 
 ## Methodology
