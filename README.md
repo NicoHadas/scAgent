@@ -1,5 +1,3 @@
-<img width="691" height="46" alt="image" src="https://github.com/user-attachments/assets/faa61c69-6c9e-457c-8b60-5828cf29e089" />
-
 # **scAgent**
 
 ## Overview
