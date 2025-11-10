@@ -1,2 +1,27 @@
-# scAgent
-Agentic AI system with self correction to probe our single-cell data
+<img width="691" height="46" alt="image" src="https://github.com/user-attachments/assets/faa61c69-6c9e-457c-8b60-5828cf29e089" />
+
+# **scAgent**
+
+## Overview
+Agentic AI framework that probes our local single-cell data. Enables non-computational experts to seamlessly investigate transcriptional signatures. 
+
+## Methodology
+- Converted our seurat object to anndata, enabling versatile scanpy analysis features
+- Downloaded 20 billion parameter openAI LLM (gpt-oss:20b)
+- Agentic framework designed with LangChain in Python. LLM provided with tools and context to execute analysis on our data
+
+## Architecture
+
+#### Phase 1: Planner
+Expert bioinformatician takes prompt and generates a detailed step-by-step plan
+
+#### Phase 2: Executor
+Extracts plan and runs code on sc data using defined libraries
+
+#### Phase 3: Self Corrector
+Feedback loop that catches an error in the script. Debugs and updates
+
+#### Phase 4: Summarizer
+Summarizes results from executor
+
+
